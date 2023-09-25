@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Error: Missing '!DOCTYPE html' at the top of the document. Fix: Add '!DOCTYPE html'. -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-term Page 4</title>
+    <style>
+        img{
+            width:200px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="/html-midterm/page1.html">Page 1</a>
+        <span> | </span>
+        <a href="/html-midterm/page2.html">Page 2</a>
+        <span> | </span>
+        <a href="/html-midterm/page3.html">Page 3</a>
+        <span> | </span>
+        <a href="/html-midterm/page4.html">Page 4</a>
+        <span> | </span>
+        <a href="/html-midterm/page5.html">Page 5</a>
+        
+    </div>
+    
+    <table>
+        <!-- Logic Error: Headings should be along the side not the top to match the images they are labeling. Fix: Move the '<th>' tags into each respective row. -->
+        <!-- Error: All the images are missing 'alt="description" text. Fix: Add 'alt="description" for all the images. -->
+        <tr>
+            <th>Dogs</th>
+            <td><img src="img/dogsFrolic.png" alt="dogs frolic"></td>
+            <!-- Error: Missing closing '</td>', therefore image not showing. Fix: Add '</td>' around <img src=".../img/orangeCat.png">. -->
+            <td><img src="img/dogSinging.png" alt="dog dogSinging"></td>
+            <td><img src="img/labLab.png" alt="lab lab"></td>
+        </tr>
+        <tr>
+            <th>Cats</th>
+            <td><img src="img/boxingCats.png" alt="boxing cats"></td>
+            <!-- Error: Missing '<td>', therefore image not showing. Fix: Add '<td>' around <img src="img/orangeCat.png">. -->
+            <td><img src="img/orangeCat.png" alt="orange cat"></td>
+            <td><img src="img/sunCat.png" alt="sun cat"></td>
+        </tr>
+        <tr>
+            <th>Other?</th>
+            <td><img src="img/diamondAlien.png" alt="diamond alien"></td>
+            <!-- Error: Missing opening '<td>'. Fix: Add '<td>' before <img src="img/orangeCat.png">. -->
+            <td><img src="img/creature.png" alt="creature"></td>
+            <td><img src="img/aliensPeace.png" alt="aliens peace"></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
