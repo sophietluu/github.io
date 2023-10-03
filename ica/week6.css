@@ -1,0 +1,9 @@
+.box{
+    border: 2px red dashed;
+}
+
+.text{
+    border: 5px blue dashed;
+    padding: 20px 30px 10px 50px;
+    background-color: lightblue;
+}
