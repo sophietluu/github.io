@@ -1,0 +1,75 @@
+body {
+    background-image: url("../img/nbafinal.jpg");
+    background-repeat: no-repeat;
+}
+
+.scoreboard {
+    background-color: #e54b41; /* Background color */
+    padding: 5px; 
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Justify content to the left */
+    flex-wrap: wrap;
+    width: 20%; 
+  }
+
+  .team {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Justify content to the left */
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .team-name {
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px; /* Add padding between the team name and the score */
+  }
+
+  .team-score {
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 3px; /* Add rounded corners */
+    font-weight: bold;
+  }
+
+  .time-left {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+    border: 2px solid #CDC6AE;
+    background-color: #4F759B;
+  }
+  
+  .logo {
+    max-width: 100%;
+    max-height: 100%
+  }
+
+.logo img{
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    top: 15px;
+    left: 150px;
+}
+
+.network-info {
+    background-color: #4F759B;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
