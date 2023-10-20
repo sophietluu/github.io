@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5EAFA; /* Changed the background color */
+}
+
+h1{
+    color: #093824;
+    font-family: Arial, sans-serif; /* Changed the font */
+}
+
+nav {
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #C6CCB2; /* Changed the background color */
+}
+
+nav a {
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: #BF4E30; /* Changed the color */
+    font-family: Arial, sans-serif; /* Changed the font */
+}
+
+img {
+    width: 700px;
+    height: auto;
+    animation: bounce 2s infinite; /* Added an animation */
+}
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(200px);
+    }
+    75% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#ball {
+    background-color: #827191; /* Changed the color */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    transition: transform 0.3s ease; /* Added a transition */
+}
+
+#ball:hover {
+    transform: scale(1.5); /* Added a hover animation */
+}
