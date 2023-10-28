@@ -1,0 +1,162 @@
+@media only screen and (max-width: 800px) {
+  .sticky-header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #bad4aa;
+    padding: 20px;
+  }
+  
+  img{
+    width: 100%;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+    .box {
+      background-color: #ebf5df;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border: 1px solid black;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    }
+
+    .box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      background-color: #edb458;
+    }
+  }
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  .sticky-header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #bad4aa;
+    padding: 20px;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  main {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .box {
+    background-color: #ebf5df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  }
+
+  .box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #edb458;
+  }
+}
