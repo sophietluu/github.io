@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICA 10 -- Interactive Elements</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 20px;
+            text-align: center;
+            line-height: 1;
+            font-size: 16px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1" style="text-align: center;">Click me to change color</div>
+    <div class="box" id="box2" style="text-align: center;">Hover over me to change text</div>
+
+    <script>
+        var box1 = document.querySelector("#box1");
+        var box2 = document.querySelector("#box2");
+
+        box1.addEventListener("click", function() {
+            box1.style.backgroundColor = "lightblue";
+        });
+
+        box2.addEventListener("mouseover", function() {
+            box2.textContent = "Text changed!";
+        });
+
+        box2.addEventListener("mouseout", function() {
+            box2.textContent = "Hover over me to change text";
+        });
+    </script>
+</body>
+</html>
