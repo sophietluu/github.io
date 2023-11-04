@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button.randomize {
+    background-color: #C0D684;
+    color: #5e2612;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p.story {
+    background-color: #CBEAA6;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+    margin-top: 20px;
+  }
+  
