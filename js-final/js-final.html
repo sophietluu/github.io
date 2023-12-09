@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alphabet Keyboard</title>
+  <link rel="stylesheet" href="js-final.css">
+</head>
+
+<body>
+  <div id="instructionsBox">
+    <p>Please input your phone number using the keyboard below</p>
+  </div>
+  <div id="phoneRecorded">Your phone number has been recorded: <span id="recordedPhoneNumber"></span></div>
+  <div class="number-box" id="numbersBox">
+    <!-- Placeholder numbers -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="keyboard" id="letterKeyboard">
+    <button onclick="updateTypedLetters('A')">A</button>
+    <button onclick="updateTypedLetters('B')">B</button>
+    <button onclick="updateTypedLetters('C')">C</button>
+    <button onclick="updateTypedLetters('D')">D</button>
+    <button onclick="updateTypedLetters('E')">E</button>
+    <button onclick="updateTypedLetters('F')">F</button>
+    <button onclick="updateTypedLetters('G')">G</button>
+    <button onclick="updateTypedLetters('H')">H</button>
+    <button onclick="updateTypedLetters('I')">I</button>
+    <button onclick="updateTypedLetters('J')">J</button>
+    <button onclick="updateTypedLetters('K')">K</button>
+    <button onclick="updateTypedLetters('L')">L</button>
+    <button onclick="updateTypedLetters('M')">M</button>
+    <button onclick="updateTypedLetters('N')">N</button>
+    <button onclick="updateTypedLetters('O')">O</button>
+    <button onclick="updateTypedLetters('P')">P</button>
+    <button onclick="updateTypedLetters('Q')">Q</button>
+    <button onclick="updateTypedLetters('R')">R</button>
+    <button onclick="updateTypedLetters('S')">S</button>
+    <button onclick="updateTypedLetters('T')">T</button>
+    <button onclick="updateTypedLetters('U')">U</button>
+    <button onclick="updateTypedLetters('V')">V</button>
+    <button onclick="updateTypedLetters('W')">W</button>
+    <button onclick="updateTypedLetters('X')">X</button>
+    <button onclick="updateTypedLetters('Y')">Y</button>
+    <button onclick="updateTypedLetters('Z')">Z</button>
+  </div>
+  <div id="typedLetters"><input type="text" id="typedInput" readonly></div>
+  <button id="addButton" onclick="addNumber()">Add</button>
+  <button id="submitButton" onclick="submitForm()">Submit</button>
+  <script src="js-final.js"></script>
+</body>
+
+</html>
